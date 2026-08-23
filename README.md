@@ -17,6 +17,7 @@
   - 经典时期 1960s–2009：ZMP / LIPM / 操作空间 / 全身控制起源
   - 2010s：Atlas 时代 · QP 全身控制 · MPC 步态 · 质心动量控制
   - 2020s：深度强化学习 · 遥操作与示教 · 人形基础模型 / VLA
+- [🧭 WBC 发展路线与技术分析](humanoid-wbc-development.md)（四代演进 + 核心技术体系 + 两条路线对比）
 - [🛠 开源工具与仿真器 (Tools & Simulators)](tools.md)
 - [🌐 中文资源 (Chinese Resources)](tools.md#-中文资源)
 
