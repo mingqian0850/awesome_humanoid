@@ -51,9 +51,8 @@
 
 ## 1.3 Lecture / 视频
 
-1. **ETH Robot Dynamics（Hutter）** — [公开录像](https://video.ethz.ch/lectures/d-mavt/2025/autumn/151-0851-00L)：前 8 讲覆盖刚体动力学、浮动基座、[Legged Robotics 专章](https://ethz.ch/content/dam/ethz/special-interest/mavt/robotics-n-intelligent-systems/rsl-dam/documents/RobotDynamics2017/8-leggedrobotics_ex.pdf)
-2. **CMU 16-745 Optimal Control（Atkeson）** — [课程页](https://www.cs.cmu.edu/~cga/dynopt/)：Week 1–4 的动力学/轨迹优化部分
-3. **KAIST Robot Dynamics（Hwangbo）** — [公开页](https://railab.kaist.ac.kr/sections/education.html)：ABA/CRBA/RNE 的工程实现视角（和 Pinocchio 源码对应着看）
+1. **CMU 16-745 Optimal Control（Atkeson）** — [课程页](https://www.cs.cmu.edu/~cga/dynopt/)：Week 1–4 的动力学/轨迹优化部分（动力学与优化衔接的绝佳视频课）
+2. **Underactuated Robotics（Tedrake, MIT）** — [在线教材+视频](https://underactuated.mit.edu/)：Ch. 2–3 接触建模/浮动基座与视频课配套
 
 ## 1.4 代码实现与开源库（优先顺序）
 
