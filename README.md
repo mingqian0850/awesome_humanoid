@@ -2,14 +2,13 @@
 
 人形机器人（Humanoid Robotics）与全身控制（Whole-Body Control, WBC）精选资源清单 —— 公开课程、经典与前沿论文、书籍，从起源到当下。
 
-> **学习路径建议**：理论基础（[Underactuated Robotics](#mit--underactuated-robotics)）→ 阅读 [WBC 综述](#-综述-surveys) 建立全局图景 → 公开课程（[ETH Robot Dynamics](#eth-zürich--robot-dynamics) / [KIT](#kit--humanoid-robots--locomotion-and-whole-body-control)）→ 按年代读论文 → 用开源仿真器（[MuJoCo](https://mujoco.org/) / [Isaac Lab](https://isaac-sim.github.io/IsaacLab/)）动手实践。
+> **学习路径建议**：理论基础（[Underactuated Robotics](#mit--underactuated-robotics)）→ 阅读 [WBC 综述](#-综述-surveys) 建立全局图景 → 公开课程（[CMU 16-745](#cmu--16-745-optimal-control-and-reinforcement-learning) 等，见 [courses.md](courses.md)）→ 按年代读论文 → 用开源仿真器（[MuJoCo](https://mujoco.org/) / [Isaac Lab](https://isaac-sim.github.io/IsaacLab/)）动手实践。
 
-> 📊 内容统计：**89 篇论文**（1972–2025，全部经核实附链接）· **15 本书**（含 3 本中文）· **11 门公开课程/视频系列** · **15 个开源工具与仿真器**
+> 📊 内容统计：**89 篇论文**（1972–2025，全部经核实附链接）· **15 本书**（含 3 本中文）· **7 门公开课程/视频系列** · **15 个开源工具与仿真器**
 
 ## 📖 目录 (Table of Contents)
 
 - [🎓 公开课程 (Public Courses)](courses.md)
-  - 直接对口：Humanoid + WBC 课程
   - 系统性理论基础课
   - 免费视频：研讨会 / 工作坊
 - [📚 书籍 (Books)](books.md)

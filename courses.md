@@ -1,31 +1,7 @@
 # 🎓 公开课程 (Public Courses)
 
 > 全部为**公开可访问**的大学课程（含公开幻灯片 / 公开录像 / 免费在线版）。
-> 推荐学习路径：先过 [MIT Underactuated](#mit--underactuated-robotics)（理论基础）→ [ETH Robot Dynamics](#eth-zürich--robot-dynamics)（全身动力学与 WBC 推导）→ [KIT](#kit--humanoid-robots--locomotion-and-whole-body-control) / [CTU](#ctu-prague--humanoid-robots)（人形专题）→ [KAIST](#kaist--robot-dynamics)（接触动力学与 RL 控制）。
-
-## 🏆 直接对口：Humanoid + Whole-Body Control
-
-### KIT — Humanoid Robots – Locomotion and Whole-Body Control
-- 讲师：Katja Mombaur 教授（Optimization and Biomechanics for Human-Centred Robotics, HCR）
-- 课程号 2400135，内容即"人形机器人运动 + 全身控制"，含生物力学与优化视角
-- [课程主页](https://hcr.iar.kit.edu/28_445.php) · [ILIAS 课程页](https://ilias.studium.kit.edu/ilias.php?baseClass=ilrepositorygui&cmdNode=xs:mo:f4&cmdClass=ilInfoScreenGUI&ref_id=2911159)
-- ⚠️ 课件挂 ILIAS 需校园账号，课程结构与大纲公开
-- 姊妹课程：[Robotics II: Humanoid Robotics (2400074)](https://ilias.studium.kit.edu/ilias.php?baseClass=ilrepositorygui&cmdNode=xs:mo:f4&cmdClass=ilInfoScreenGUI&ref_id=2890285)
-
-### ETH Zürich — Robot Dynamics
-- 讲师：Marco Hutter（RSL 实验室创始人，ANYmal/ANYbotics）
-- 覆盖浮动基座动力学、关节/任务空间全身控制、足式机器人；含专章 [Legged Robotics](https://ethz.ch/content/dam/ethz/special-interest/mavt/robotics-n-intelligent-systems/rsl-dam/documents/RobotDynamics2017/8-leggedrobotics_ex.pdf)
-- [公开录像（2025 秋，可回看往年）](https://video.ethz.ch/lectures/d-mavt/2025/autumn/151-0851-00L)
-
-### CTU Prague — Humanoid Robots (B3M33HRO)
-- 讲师：Matěj Hoffmann / G. D'Angelo，英文授课（2P+2C）
-- 从人形机器人历史、形态学到运动控制，入门友好；幻灯片公开
-- [课程 wiki](https://cw.fel.cvut.cz/wiki/courses/hro/start) · [2025 第一讲 PDF](https://cw.fel.cvut.cz/b242/_media/courses/hro/lectures/hro1_2025_motivationfromhistorytopresence.pdf) · [文献清单](https://cw.fel.cvut.cz/b222/courses/hro/literature)
-
-### KAIST — Robot Dynamics / Learning-based Control
-- 讲师：Jemin Hwangbo（RAIL 实验室；rl_gpu / Isaac Gym 腿足 RL 训练开创者）
-- Robot Dynamics 关键词直指 whole-body control、ABA/CRBA/RNE、接触动力学；秋季另有 Learning-based Control（深度 RL 控制腿足机器人）
-- [公开课程页](https://railab.kaist.ac.kr/sections/education.html)
+> 推荐学习路径：先过 [MIT Underactuated](#mit--underactuated-robotics)（理论基础）→ [CMU 16-745](#cmu--16-745-optimal-control-and-reinforcement-learning)（最优控制）→ 按年代读 [论文](papers.md) → 用开源仿真器（[MuJoCo](https://mujoco.org/) / [Isaac Lab](https://isaac-sim.github.io/IsaacLab/)）动手实践。
 
 ## 🧱 系统性理论基础课（全公开，视频 + 免费教材）
 
