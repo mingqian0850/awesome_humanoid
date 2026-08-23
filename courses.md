@@ -7,7 +7,8 @@
 
 ### CMU — 16-745 Optimal Control and Reinforcement Learning
 - 讲师：Chris Atkeson（CMU，DRC 队成员），最优控制与强化学习，腿足/人形控制研究者的必修数学课
-- 公开课件 + 讲义 + 录像：[课程主页](https://www.cs.cmu.edu/~cga/dynopt/) · [讲义 Notebooks](https://github.com/Optimal-Control-16-745/lecture-notebooks)
+- 讲义 + 课件 + 练习全部公开：[课程主页](https://www.cs.cmu.edu/~cga/dynopt/) · [讲义 Notebooks](https://github.com/Optimal-Control-16-745/lecture-notebooks)
+- ⚠️ 课堂录像为 Zoom 分享链接（可能要求登录），课程本身无需账户即可学
 
 ### MIT — Underactuated Robotics
 - 讲师：Russ Tedrake，覆盖浮动基座动力学、接触建模、轨迹优化、LQR/MPC，含 walking 相关章节 —— 学 WBC 前的最佳理论前置课
@@ -27,12 +28,6 @@
 - 含 Patrick Wensing 等全身控制领域代表人物报告
 - [工作坊主页](https://icra-2024-humanoid.github.io/) · [Program/Schedule](https://icra-2024-humanoid.github.io/program/)
 
-## ➕ 其他已核实的公开课程 / 视频系列
-
-### UC3M — Robots Humanoides / Humanoid Robots
-- 讲师：Juan Carlos González Víctores（马德里卡洛斯三世大学，系统工程与自动化系，3 ECTS 选修）
-- [官方课程指南 PDF](https://aplicaciones.uc3m.es/cpa/cpa/generaFichaPDF?ano=2024&plan=296&asignatura=14936)（⚠️ 讲义/录像在校内系统，仅课程指南公开）
-
 ### Georgia Tech — Hardware Design and Control Algorithms for Agile and Versatile Legged Robots
-- 腿足机器人硬件与运动控制算法的公开视频系列
+- 腿足机器人硬件与运动控制算法的公开视频系列（无需账户）
 - [Class Central 视频页](https://www.classcentral.com/course/youtube-hardware-design-and-control-algorithms-for-agile-and-versatile-legged-robots-438246)
