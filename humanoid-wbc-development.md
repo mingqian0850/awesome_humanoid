@@ -216,5 +216,5 @@ sim2real：domain randomization + 特权学习/教师-学生（Lee 2020）+ 课�
 ## 8. 关键参考文献索引
 
 - 综述：[Humanoid Loco-Manipulation 2025](https://arxiv.org/abs/2501.02116) · [Learning-based Legged 2024](https://arxiv.org/abs/2406.01152) · [MPC for Legged 2023](https://doi.org/10.1080/01691864.2023.2168134) · [WBC: Past Present Future 2022](https://inria.hal.science/hal-02456663v1) · [行为基础模型综述 2025](https://arxiv.org/abs/2506.20487)
-- 完整 89 篇论文时间线（1972–2025，全部附链接）：[papers.md](papers.md)
+- 完整 96 篇论文时间线（1972–2025，全部附链接）：[papers.md](papers.md)
 - 书籍：[books.md](books.md)（Kajita 教材、Nenchev WBC 专著、Humanoid Robotics: A Reference 等）
