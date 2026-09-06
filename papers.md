@@ -202,12 +202,12 @@
 - **GRAIL: Generating Humanoid Loco-Manipulation from 3D Assets and Video Priors** — Tianyi Xie et al., arXiv 2026-06-03. [arXiv](https://arxiv.org/abs/2606.05160) [Code](https://github.com/NVlabs/GRAIL) — GRAIL：从 3D 资产与视频先验生成 loco-manipulation
 - **SplitAdapter: Load-Aware Humanoid Loco-Manipulation via Factorized Adaptation** — Jeonguk Kang et al., arXiv 2026-06-02. [arXiv](https://arxiv.org/abs/2606.03297) — SplitAdapter：载荷感知的人形 loco-manipulation
 - **HOIST: Humanoid Optimization with Imitation and Sample-efficient Tuning for Manipulating Suspended Loads** — Songyang Liu et al., arXiv 2026-05-29. [arXiv](https://arxiv.org/abs/2606.00252) — HOIST：悬挂载荷操作（模仿+样本高效微调）
-- **HumanoidMimicGen: Data Generation for Loco-Manipulation via Whole-Body Planning** — Kevin Lin et al., arXiv 2026-05-26. [arXiv](https://arxiv.org/abs/2605.27724) — HumanoidMimicGen：全身规划的 loco-manipulation 数据生成
+- **HumanoidMimicGen: Data Generation for Loco-Manipulation via Whole-Body Planning** — Kevin Lin et al., arXiv 2026-05-26. [arXiv](https://arxiv.org/abs/2605.27724) [Code](https://github.com/humanoidmimicgen/humanoidmimicgen.github.io) — HumanoidMimicGen：全身规划的 loco-manipulation 数据生成
 - **Humanoid Whole-Body Manipulation via Active Spatial Brain and Generalizable Action Cerebellum** — Zhizhao Liang et al., arXiv 2026-05-20. [arXiv](https://arxiv.org/abs/2605.21133) [Code](https://github.com/LeungChaos/Humanoid-Whole-Body-Manipulation-via-Active-Spatial-Brain-and-Generalizable-Action-Cerebellum) — 主动空间脑 + 可泛化动作小脑（全身操作）
 - **SUGAR: A Scalable Human-Video-Driven Generalizable Humanoid Loco-Manipulation Learning Framework** — Tianshu Wu et al., arXiv 2026-05-19. [arXiv](https://arxiv.org/abs/2605.20373) — SUGAR：人视频驱动的可泛化 loco-manipulation 学习
 - **CEER: Compliant End-Effector and Root Control as a Unified Interface for Hierarchical Humanoid Loco-Manipulation** — Xinyuan Luo et al., arXiv 2026-05-19. [arXiv](https://arxiv.org/abs/2605.19981) — CEER：柔顺末端+根部控制的统一接口
 - **VOFA: Visual Object Goal Pushing with Force-Adaptive Control for Humanoids** — Zichao Hu et al., arXiv 2026-05-02. [arXiv](https://arxiv.org/abs/2605.01518) — VOFA：力自适应推动（视觉目标推物）
-- **Sumo: Dynamic and Generalizable Whole-Body Loco-Manipulation** — John Z. Zhang et al., arXiv 2026-04-09. [arXiv](https://arxiv.org/abs/2604.08508) — Sumo：动态可泛化全身 loco-manipulation
+- **Sumo: Dynamic and Generalizable Whole-Body Loco-Manipulation** — John Z. Zhang et al., arXiv 2026-04-09. [arXiv](https://arxiv.org/abs/2604.08508) [Code](https://github.com/rai-opensource/sumo) — Sumo：动态可泛化全身 loco-manipulation
 - **HEX: Humanoid-Aligned Experts for Cross-Embodiment Whole-Body Manipulation** — Shuanghao Bai et al., arXiv 2026-04-09. [arXiv](https://arxiv.org/abs/2604.07993) — HEX：人形对齐专家跨形态全身操作
 - **AGILE: A Comprehensive Workflow for Humanoid Loco-Manipulation Learning** — Huihua Zhao et al., arXiv 2026-03-20. [arXiv](https://arxiv.org/abs/2603.20147) [Code](https://github.com/nvidia-isaac/WBC-AGILE) — AGILE：人形 loco-manipulation 学习综合工作流（NVIDIA）
 - **Cybo-Waiter: A Physical Agentic Framework for Humanoid Whole-Body Locomotion-Manipulation** — Peng Ren et al., arXiv 2026-03-11. [arXiv](https://arxiv.org/abs/2603.10675) — Cybo-Waiter：人形全身运动-操作智能体框架
@@ -227,13 +227,13 @@
 
 - **GigaBrain-WBC-0.5: A Behavior World Model for Robust Whole-Body Control with Environment Interaction** — Ziyang Cheng et al., arXiv 2026-08-18. [arXiv](https://arxiv.org/abs/2608.18234) — GigaBrain-WBC-0.5：行为世界模型的鲁棒全身控制
 - **Athena-WBC: Capability-Aligned Policy Experts for Long-Tail Humanoid Whole-Body Control** — Yuan Jiang et al., arXiv 2026-07-06. [arXiv](https://arxiv.org/abs/2607.04837) — Athena-WBC：能力对齐策略专家的长尾全身控制
-- **ReactiveBFM: Reactive Closed-Loop Motion Planning Towards Universal Humanoid Whole-Body Control** — Xiao Chen et al., arXiv 2026-06-29. [arXiv](https://arxiv.org/abs/2606.30362) — ReactiveBFM：反应式闭环运动规划（通用全身控制）
+- **ReactiveBFM: Reactive Closed-Loop Motion Planning Towards Universal Humanoid Whole-Body Control** — Xiao Chen et al., arXiv 2026-06-29. [arXiv](https://arxiv.org/abs/2606.30362) [Code](https://github.com/zjwzcx/ReactiveBFM) — ReactiveBFM：反应式闭环运动规划（通用全身控制）
 - **AnyBody: Free-Form Whole-Body Humanoid Control from Arbitrary Keypoint Guidance** — Shuning Li et al., arXiv 2026-06-28. [arXiv](https://arxiv.org/abs/2606.29209) — AnyBody：任意关键点引导的自由形式全身控制
 - **Learning Asynchronous Upper-body Task-space Trajectory Tracking Policy for Humanoid Robots** — Yumeng Liu et al., arXiv 2026-06-24. [arXiv](https://arxiv.org/abs/2606.25706) — 异步上半身任务空间轨迹跟踪策略
 - **RGB: RL Guided Whole-Body MPPI for Humanoid Control** — Yunsoo Seo et al., arXiv 2026-06-23. [arXiv](https://arxiv.org/abs/2606.25123) — RGB：RL 引导的全身 MPPI 人形控制
-- **OMG: Omni-Modal Motion Generation for Generalist Humanoid Control** — Siqiao Huang et al., arXiv 2026-06-09. [arXiv](https://arxiv.org/abs/2606.10340) — OMG：全模态运动生成（通用人形控制）
-- **Mind Your Steps: A General Learning Framework for Accurate Humanoid Foothold Tracking** — Alessandro Montenegro et al., arXiv 2026-06-06. [arXiv](https://arxiv.org/abs/2606.08253) — 全身落脚点跟踪学习框架
-- **LadderMan: Learning Humanoid Perceptive Ladder Climbing** — Siheng Zhao et al., arXiv 2026-06-04. [arXiv](https://arxiv.org/abs/2606.05873) — LadderMan：人形感知爬梯
+- **OMG: Omni-Modal Motion Generation for Generalist Humanoid Control** — Siqiao Huang et al., arXiv 2026-06-09. [arXiv](https://arxiv.org/abs/2606.10340) [Code](https://github.com/Tsinghua-MARS-Lab/OMG) — OMG：全模态运动生成（通用人形控制）
+- **Mind Your Steps: A General Learning Framework for Accurate Humanoid Foothold Tracking** — Alessandro Montenegro et al., arXiv 2026-06-06. [arXiv](https://arxiv.org/abs/2606.08253) [Code](https://github.com/MontenegroAlessandro/mind-your-steps) — 全身落脚点跟踪学习框架
+- **LadderMan: Learning Humanoid Perceptive Ladder Climbing** — Siheng Zhao et al., arXiv 2026-06-04. [arXiv](https://arxiv.org/abs/2606.05873) [Code](https://github.com/amazon-far/LadderMan) — LadderMan：人形感知爬梯
 - **M3imic: Learning a Versatile Whole-Body Controller for Multimodal Motion Mimicking** — Zuxing Lu et al., arXiv 2026-06-03. [arXiv](https://arxiv.org/abs/2606.04829) — M3imic：多模态运动模仿的通用全身控制器
 - **Safety-Critical Whole-Body Control for Humanoid Robots via Input-to-State Safe Control Barrier Functions** — Kwanwoo Lee et al., arXiv 2026-05-25. [arXiv](https://arxiv.org/abs/2605.25546) — 输入到状态安全控制屏障函数的全身控制
 - **Any2Any: Efficient Cross-Embodiment Transfer for Humanoid Whole-Body Tracking** — Ming Yang et al., arXiv 2026-05-22. [arXiv](https://arxiv.org/abs/2605.23733) — Any2Any：跨形态高效迁移全身跟踪
@@ -242,7 +242,7 @@
 - **Switch: Learning Agile Skills Switching for Humanoid Robots** — Yuen-Fui Lau et al., arXiv 2026-04-16. [arXiv](https://arxiv.org/abs/2604.14834) — Switch：人形敏捷技能切换
 - **Vectorizing Projection in Manifold-Constrained Motion Planning for Real-Time Whole-Body Control** — Shrutheesh R Iyer et al., arXiv 2026-04-14. [arXiv](https://arxiv.org/abs/2604.13323) — 流形约束运动规划向量化投影（实时全身控制）
 - **SMASH: Mastering Scalable Whole-Body Skills for Humanoid Ping-Pong with Egocentric Vision** — Junli Ren et al., arXiv 2026-04-01. [arXiv](https://arxiv.org/abs/2604.01158) — SMASH：人形乒乓球全身技能（第一视角）
-- **DreamControl-v2: Simpler and Scalable Autonomous Humanoid Skills via Trainable Guided Diffusion Priors** — Sudarshan Harithas et al., arXiv 2026-03-31. [arXiv](https://arxiv.org/abs/2604.00202) — DreamControl-v2：可训练引导扩散先验的自主人形技能
+- **DreamControl-v2: Simpler and Scalable Autonomous Humanoid Skills via Trainable Guided Diffusion Priors** — Sudarshan Harithas et al., arXiv 2026-03-31. [arXiv](https://arxiv.org/abs/2604.00202) [Code](https://github.com/GenRobo/DreamControl-v2) — DreamControl-v2：可训练引导扩散先验的自主人形技能
 - **Load-Aware Locomotion Control for Humanoid Robots in Industrial Transportation Tasks** — Lequn Fu et al., arXiv 2026-03-15. [arXiv](https://arxiv.org/abs/2603.14308) — 工业搬运任务中的载荷感知运动控制
 - **Kinodynamic Motion Retargeting for Humanoid Locomotion via Multi-Contact Whole-Body Trajectory Optimization** — Xiaoyu Zhang et al., arXiv 2026-03-10. [arXiv](https://arxiv.org/abs/2603.09956) — 多接触全身轨迹优化的运动重定向
 - **Natural Humanoid Robot Locomotion with Generative Motion Prior** — Haodong Zhang et al., arXiv 2025-03-12. [arXiv](https://arxiv.org/abs/2503.09015) — 生成式运动先验的自然人形运动
@@ -256,21 +256,21 @@
 
 - **EATR-Stereo: Embodiment-Aware Token Routing of Paired Stereo Evidence for Humanoid Vision-Language-Action Control** — Songwei Wu et al., arXiv 2026-08-18. [arXiv](https://arxiv.org/abs/2608.17453) — EATR-Stereo：具身感知 token 路由的人形 VLA
 - **HAF: Adapting Generalist VLAs to Humanoid Whole-Body Loco-manipulation via Hierarchical Action Flow and Spectral Latent RL** — Langzhe Gu et al., arXiv 2026-08-17. [arXiv](https://arxiv.org/abs/2608.16837) — HAF：分层动作流 + 谱潜在 RL 的人形全身 loco-manip VLA
-- **MotionVLA: Vision-Language-Action Model for Humanoid Motion** — Nonghai Zhang et al., arXiv 2026-06-13. [arXiv](https://arxiv.org/abs/2606.15142) — MotionVLA：人形运动的 VLA 模型
-- **GenHOI: Contact-Aware Humanoid-Object Interaction by Imitating Generated Videos without Task-Specific Training** — Zhihai Bi et al., arXiv 2026-06-11. [arXiv](https://arxiv.org/abs/2606.12995) — GenHOI：接触感知人形-物体交互（生成视频模仿）
+- **MotionVLA: Vision-Language-Action Model for Humanoid Motion** — Nonghai Zhang et al., arXiv 2026-06-13. [arXiv](https://arxiv.org/abs/2606.15142) [Code](https://github.com/AIGeeksGroup/MotionVLA) — MotionVLA：人形运动的 VLA 模型
+- **GenHOI: Contact-Aware Humanoid-Object Interaction by Imitating Generated Videos without Task-Specific Training** — Zhihai Bi et al., arXiv 2026-06-11. [arXiv](https://arxiv.org/abs/2606.12995) [Code](https://github.com/GenHOI-humanoid/genhoi-humanoid.github.io) — GenHOI：接触感知人形-物体交互（生成视频模仿）
 - **LEGS: Fine-Tuning Teleop-Free VLAs for Humanoid Loco-manipulation in an Embodied Gaussian Splatting World** — Hojune Kim et al., arXiv 2026-05-31. [arXiv](https://arxiv.org/abs/2606.01458) — LEGS：免遥操作微调人形 loco-manipulation VLA
-- **CLAW: Composable Language-Annotated Whole-body Motion Generation** — Jianuo Cao et al., arXiv 2026-04-13. [arXiv](https://arxiv.org/abs/2604.11251) — CLAW：可组合语言标注全身运动生成
+- **CLAW: Composable Language-Annotated Whole-body Motion Generation** — Jianuo Cao et al., arXiv 2026-04-13. [arXiv](https://arxiv.org/abs/2604.11251) [Code](https://github.com/JianuoCao/CLAW) — CLAW：可组合语言标注全身运动生成
 - **DIAL: Decoupling Intent and Action via Latent World Modeling for End-to-End VLA** — Yi Chen et al., arXiv 2026-03-31. [arXiv](https://arxiv.org/abs/2603.29844) — DIAL：潜在世界建模解耦意图与动作（端到端 VLA）
 - **PhysiFlow: Physics-Aware Humanoid Whole-Body VLA via Multi-Brain Latent Flow Matching and Robust Tracking** — Weikai Qin et al., arXiv 2026-03-05. [arXiv](https://arxiv.org/abs/2603.05410) — PhysiFlow：物理感知人形全身 VLA（多脑潜在流匹配）
 - **Habilis-$β$: A Fast-Motion and Long-Lasting On-Device Vision-Language-Action Model** — Tommoro Robotics et al., arXiv 2026-02-21. [arXiv](https://arxiv.org/abs/2602.18813) — Habilis-β：端侧快速长时 VLA 模型（人形）
 - **PhysBrain: Human Egocentric Data as a Bridge from Vision Language Models to Physical Intelligence** — Xiaopeng Lin et al., arXiv 2025-12-18. [arXiv](https://arxiv.org/abs/2512.16793) — PhysBrain：人类第一视角数据桥接 VLM 与物理智能
-- **EgoVLA: Learning Vision-Language-Action Models from Egocentric Human Videos** — Ruihan Yang et al., arXiv 2025-07-16. [arXiv](https://arxiv.org/abs/2507.12440) — EgoVLA：第一视角人类视频学习 VLA
+- **EgoVLA: Learning Vision-Language-Action Models from Egocentric Human Videos** — Ruihan Yang et al., arXiv 2025-07-16. [arXiv](https://arxiv.org/abs/2507.12440) [Code](https://github.com/RchalYang/EgoVLA_Release) — EgoVLA：第一视角人类视频学习 VLA
 
 ### 📡 遥操作 · 数据采集 · 运动重定向
 
 > 数据层：采集/重定向/跟踪
 
-- **Teleopit: A Full-Embodiment Humanoid Teleoperation System** — Bingqian Wu et al., arXiv 2026-08-03. [arXiv](https://arxiv.org/abs/2608.01834) — Teleopit：全具身人形遥操作系统
+- **Teleopit: A Full-Embodiment Humanoid Teleoperation System** — Bingqian Wu et al., arXiv 2026-08-03. [arXiv](https://arxiv.org/abs/2608.01834) [Code](https://github.com/BotRunner64/Teleopit) — Teleopit：全具身人形遥操作系统
 - **Event-Based Upper-Body Humanoid Teleoperation Under Challenging Illumination** — Haoyu Fu et al., arXiv 2026-07-31. [arXiv](https://arxiv.org/abs/2607.29227) — 事件相机人形上身遥操作（恶劣光照）
 - **Towards Miniature Humanoid Tele-Loco-Manipulation Using Virtual Reality and Reinforcement Learning** — Nicolas Kosanovic et al., arXiv 2026-07-22. [arXiv](https://arxiv.org/abs/2607.20399) — 微型人形 VR+RL 遥 loco-manipulation
 - **Handroid: Bridging Dexterous Hand and Humanoid** — Ruogu Li et al., arXiv 2026-07-17. [arXiv](https://arxiv.org/abs/2607.16187) — Handroid：灵巧手与人形桥接
@@ -285,14 +285,14 @@
 - **Safe Human-to-Humanoid Motion Imitation Using Control Barrier Functions** — Wenqi Cai et al., arXiv 2026-04-13. [arXiv](https://arxiv.org/abs/2604.11447) — 控制屏障函数的自然人-人形模仿
 - **Make Tracking Easy: Neural Motion Retargeting for Humanoid Whole-body Control** — Qingrui Zhao et al., arXiv 2026-03-23. [arXiv](https://arxiv.org/abs/2603.22201) — Make Tracking Easy：人形全身控制神经重定向
 - **OmniClone: Engineering a Robust, All-Rounder Whole-Body Humanoid Teleoperation System** — Yixuan Li et al., arXiv 2026-03-15. [arXiv](https://arxiv.org/abs/2603.14327) — OmniClone：全能全身人形遥操作系统
-- **ExtremControl: Low-Latency Humanoid Teleoperation with Direct Extremity Control** — Ziyan Xiong et al., arXiv 2026-02-11. [arXiv](https://arxiv.org/abs/2602.11321) — ExtremControl：低延迟末端直接控制遥操作
+- **ExtremControl: Low-Latency Humanoid Teleoperation with Direct Extremity Control** — Ziyan Xiong et al., arXiv 2026-02-11. [arXiv](https://arxiv.org/abs/2602.11321) [Code](https://github.com/ziyanx02/extremcontrol) — ExtremControl：低延迟末端直接控制遥操作
 - **EgoHumanoid: Unlocking In-the-Wild Loco-Manipulation with Robot-Free Egocentric Demonstration** — Modi Shi et al., arXiv 2026-02-10. [arXiv](https://arxiv.org/abs/2602.10106) [Code](https://github.com/OpenDriveLab/EgoHumanoid) — EgoHumanoid：野外免机器人第一视角演示
 - **A Closed-Form Geometric Retargeting Solver for Upper Body Humanoid Robot Teleoperation** — Chuizheng Kong et al., arXiv 2026-02-02. [arXiv](https://arxiv.org/abs/2602.01632) — 上肢遥操作闭式几何重定向求解器
 - **AdaMorph: Unified Motion Retargeting via Embodiment-Aware Adaptive Transformers** — Haoyu Zhang et al., arXiv 2026-01-12. [arXiv](https://arxiv.org/abs/2601.07284) — AdaMorph：具身感知自适应变换器统一重定向
 - **World-Coordinate Human Motion Retargeting via SAM 3D Body** — Zhangzheng Tu et al., arXiv 2025-12-25. [arXiv](https://arxiv.org/abs/2512.21573) — SAM 3D 人体世界坐标运动重定向
 - **CaFe-TeleVision: A Coarse-to-Fine Teleoperation System with Immersive Situated Visualization for Enhanced Ergonomics** — Zixin Tang et al., arXiv 2025-12-16. [arXiv](https://arxiv.org/abs/2512.14270) [Code](https://github.com/Zixin-Tang/CaFe-TeleVision) — CaFe-TeleVision：粗到细遥操作可视化
 - **X-Humanoid: Robotize Human Videos to Generate Humanoid Videos at Scale** — Pei Yang et al., arXiv 2025-12-04. [arXiv](https://arxiv.org/abs/2512.04537) [Code](https://github.com/Open-X-Humanoid/TienKung-Lab) — X-Humanoid：人类视频人形化生成
-- **TWIST2: Scalable, Portable, and Holistic Humanoid Data Collection System** — Yanjie Ze et al., arXiv 2025-11-04. [arXiv](https://arxiv.org/abs/2511.02832) — TWIST2：可扩展便携人形数据采集系统
+- **TWIST2: Scalable, Portable, and Holistic Humanoid Data Collection System** — Yanjie Ze et al., arXiv 2025-11-04. [arXiv](https://arxiv.org/abs/2511.02832) [Code](https://github.com/amazon-far/TWIST2) — TWIST2：可扩展便携人形数据采集系统
 - **EgoMI: Learning Active Vision and Whole-Body Manipulation from Egocentric Human Demonstrations** — Justin Yu et al., arXiv 2025-10-31. [arXiv](https://arxiv.org/abs/2511.00153) — EgoMI：第一视角主动视觉+全身操作学习
 - **From Language to Locomotion: Retargeting-free Humanoid Control via Motion Latent Guidance** — Zhe Li et al., arXiv 2025-10-16. [arXiv](https://arxiv.org/abs/2510.14952) — 从语言到运动：免重定向人形控制（运动潜在引导）
 - **HumanoidExo: Scalable Whole-Body Humanoid Manipulation via Wearable Exoskeleton** — Rui Zhong et al., arXiv 2025-10-03. [arXiv](https://arxiv.org/abs/2510.03022) — HumanoidExo：可穿戴外骨骼全身操作
