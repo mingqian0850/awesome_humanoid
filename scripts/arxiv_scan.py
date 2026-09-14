@@ -32,8 +32,18 @@ QUERIES = [
 ]
 
 
-def fetch(url):
-    return urllib.request.urlopen(url, timeout=30).read()
+def fetch(url, attempts=2, backoff=8):
+    """GET with retry/backoff (arXiv API returns 429 when polled too fast)."""
+    last = None
+    for i in range(attempts):
+        try:
+            req = urllib.request.Request(url, headers={"User-Agent": "awesome-humanoid-scan/1.0"})
+            return urllib.request.urlopen(req, timeout=30).read()
+        except Exception as e:
+            last = e
+            if i < attempts - 1:
+                time.sleep(backoff * (i + 1))
+    raise last
 
 
 def existing_ids():
@@ -44,38 +54,66 @@ def existing_ids():
         return set()
 
 
+def dismissed_ids():
+    """IDs intentionally skipped by the maintainer (kept out of future scans)."""
+    path = os.path.join(os.path.dirname(__file__), "dismissed.txt")
+    if not os.path.exists(path):
+        return set()
+    ids = set()
+    for line in open(path, encoding="utf-8"):
+        line = line.split("#")[0].strip()
+        if line:
+            ids.add(line.split()[0])
+    return ids
+
+
 def main():
+    import datetime
     # cutoff date
     if os.path.exists(MARKER):
         cutoff = open(MARKER).read().strip()
     else:
-        import datetime
         cutoff = (datetime.date.today() - datetime.timedelta(days=LOOKBACK_DAYS)).isoformat()
 
     known = existing_ids()
+    skip = dismissed_ids()
     seen = {}
+    scanned = []
+    ok_queries = 0
     for tag, q in QUERIES:
         url = "http://export.arxiv.org/api/query?" + urllib.parse.urlencode(
             {"search_query": q, "start": 0, "max_results": 25,
              "sortBy": "submittedDate", "sortOrder": "descending"})
         try:
             root = ET.fromstring(fetch(url))
+            ok_queries += 1
         except Exception as e:
             print(f"<!-- query {tag} failed: {e} -->", file=sys.stderr)
             time.sleep(3)
             continue
         for e in root.findall("a:entry", NS):
-            aid = e.find("a:id", NS).text.split("/abs/")[-1]
+            # 去掉版本后缀（v1/v2…），与 papers.md / dismissed.txt 中的无版本 ID 对齐
+            aid = re.sub(r"v\d+$", "", e.find("a:id", NS).text.split("/abs/")[-1])
             pub = e.find("a:published", NS).text[:10]
             title = " ".join(e.find("a:title", NS).text.split())
             authors = [a.find("a:name", NS).text for a in e.findall("a:author", NS)]
             au = authors[0] + (" et al." if len(authors) > 1 else "")
-            if pub > cutoff and aid not in known and aid not in seen:
+            scanned.append(pub)
+            if pub > cutoff and aid not in known and aid not in skip and aid not in seen:
                 seen[aid] = (pub, title, au)
         time.sleep(3)
 
-    # update marker to the newest paper found (or today)
-    newest = max([v[0] for v in seen.values()] + [cutoff])
+    # 只有全部关键词组都成功时才推进 marker：部分/全部查询失败时保持不变，
+    # 以免漏掉论文（下次运行会重新扫描）。
+    if ok_queries < len(QUERIES):
+        print(f"仅 {ok_queries}/{len(QUERIES)} 组查询成功，marker 保持不变（{cutoff}），本次不产出候选",
+              file=sys.stderr)
+        print("")
+        sys.exit(0)
+
+    # 全部成功时把 marker 推进到扫到的最新日期（或今天），
+    # 这样人工判定「不收录」的条目不会每周重复出现（也在 dismissed.txt 中登记）。
+    newest = max(scanned + [cutoff, datetime.date.today().isoformat()])
     with open(MARKER, "w") as f:
         f.write(newest)
 
