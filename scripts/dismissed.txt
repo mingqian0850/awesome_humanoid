@@ -1,0 +1,9 @@
+# 人工判定为「不收录」的 arXiv ID（每周扫描会跳过这些条目）
+# 一行一个 ID，# 之后为注释。新增判定请追加并写明原因。
+
+2609.01518  # 与库中已有 2606.26425 同题同作者（Duncan Calvert），重复条目
+2608.27550  # Beyond Data Scaling：通用 VLA 持续预训练，非人形 loco-manipulation
+2608.27406  # CLAP：跨具身视频世界模型，通用方向
+2608.26058  # One Policy, Many Embodiments：通用具身操作（小米）
+2608.25308  # V-Link：通用 VLA 视觉表征
+2608.28090  # Stay Seated：被动座椅上的移动，偏离主题

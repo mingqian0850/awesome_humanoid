@@ -10,6 +10,11 @@ permissions:
   contents: write
   issues: write
 
+# 避免手动触发与定时任务并发（并发推送 marker 会互相冲突）
+concurrency:
+  group: arxiv-scan
+  cancel-in-progress: false
+
 jobs:
   scan:
     runs-on: ubuntu-latest
@@ -20,7 +25,7 @@ jobs:
         id: sweep
         run: |
           python3 scripts/arxiv_scan.py > /tmp/scan_body.md
-          # 只有正文里真的含候选条目（- ** 开头）才继续，避免空 Issue
+          # 只有正文里真的含候选条目（- ** 开头）才开 Issue，避免空 Issue
           if grep -q '^- \*\*' /tmp/scan_body.md; then
             echo "has_candidates=yes" >> "$GITHUB_OUTPUT"
           else
@@ -28,14 +33,17 @@ jobs:
             echo "本次扫描无新候选，跳过 Issue 创建"
           fi
 
-      - name: Update scan marker
-        if: steps.sweep.outputs.has_candidates == 'yes'
+      # 脚本每次都会推进 marker（避免被跳过的论文每周重复出现），
+      # 因此这一步无条件执行；推送失败（例如与人工提交竞争）不应让整个任务失败。
+      - name: Commit scan marker
+        continue-on-error: true
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add scripts/.last_scan
           git commit -m "chore: advance arXiv scan marker" -q || true
-          git push -q
+          git pull --rebase --autostash -q origin main || true
+          git push -q origin HEAD:main || echo "marker push skipped (concurrent update)"
 
       - name: Open issue with candidates
         if: steps.sweep.outputs.has_candidates == 'yes'
