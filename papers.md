@@ -325,3 +325,13 @@
 - **HumanoidGen: Data Generation for Bimanual Dexterous Manipulation via LLM Reasoning** — Zhi Jing et al., arXiv 2025-07-01. [arXiv](https://arxiv.org/abs/2507.00833) [Code](https://github.com/TeleHuman/HumanoidGen) — HumanoidGen：LLM 推理的双臂灵巧操作数据生成
 - **Large Language Models for Orchestrating Bimanual Robots** — Kun Chu et al., arXiv 2024-04-02. [arXiv](https://arxiv.org/abs/2404.02018) — 大语言模型编排双臂机器人
 - **HumanoidBench: Simulated Humanoid Benchmark for Whole-Body Locomotion and Manipulation** — Carmelo Sferrazza et al., arXiv 2024-03-15. [arXiv](https://arxiv.org/abs/2403.10506) — HumanoidBench：全身运动与操作仿真基准
+
+### 📌 2026-09 增量（每周自动扫描补入）
+
+> 来源：`.github/workflows/arxiv-weekly.yml` 每周自动扫描 arXiv 后开的候选 Issue，人工筛选后并入。
+
+- **BRIDGE: An Open-Source Humanoid Platform via Morphology-Control Co-Design for Physical AI** — Jianren Wang et al., arXiv 2026-09-03. [arXiv](https://arxiv.org/abs/2609.03497) — 形态-控制协同设计的开源人形平台
+- **Unified Motion Retargeting for Humanoids with Learned Point Cloud Correspondence** — Hanyang Cao et al., arXiv 2026-09-02. [arXiv](https://arxiv.org/abs/2609.02134) — 学习点云对应的统一人形运动重定向
+- **ADAPT: Agile Diffusion Action Priors for Robust and Steerable Online Text-Driven Humanoid Control** — Yan Wu et al., arXiv 2026-09-01. [arXiv](https://arxiv.org/abs/2609.00677) — 扩散动作先验的文本驱动人形在线控制
+- **Blind Dexterity: Whole-Body Humanoid Manipulation via Pure Proprioception** — Aditya Bhatt et al., arXiv 2026-08-30. [arXiv](https://arxiv.org/abs/2608.29487) — 纯本体感知（无视觉）的全身人形操作
+- **LAC: Linear and Angular Compliance for Humanoid Whole-body Control** — Yang Liu et al., arXiv 2026-08-26. [arXiv](https://arxiv.org/abs/2608.25405) — 线/角柔顺性的人形全身控制
