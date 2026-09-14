@@ -19,17 +19,19 @@ REPO_PAPERS = "https://raw.githubusercontent.com/mingqian0850/awesome_humanoid/m
 LOOKBACK_DAYS = 14
 
 NS = {"a": "http://www.w3.org/2005/Atom"}
+# 合并为 3 组 OR 查询（而不是 9 组），把每次运行的请求数从 9 降到 3，
+# 显著降低被 arXiv 限流（HTTP 429）的概率。
 QUERIES = [
-    ('loco-manipulation', 'all:"humanoid" AND all:"loco-manipulation"'),
-    ('whole-body-control', 'all:"humanoid" AND all:"whole-body control"'),
-    ('mobile-manipulation', 'all:"humanoid" AND all:"mobile manipulation"'),
-    ('whole-body-manipulation', 'all:"humanoid" AND all:"whole-body manipulation"'),
-    ('teleoperation', 'all:"humanoid" AND all:"teleoperation"'),
-    ('vla-humanoid', 'all:"humanoid" AND all:"vision-language-action"'),
-    ('bimanual', 'all:"humanoid" AND all:"bimanual"'),
-    ('motion-retargeting', 'all:"humanoid" AND all:"motion retargeting"'),
-    ('locomotion-manipulation', 'all:"humanoid" AND all:"locomotion" AND all:"manipulation"'),
+    ('loco-manip',
+     'all:"humanoid" AND (all:"loco-manipulation" OR all:"whole-body control" '
+     'OR all:"whole-body manipulation" OR all:"mobile manipulation")'),
+    ('teleop-data',
+     'all:"humanoid" AND (all:"teleoperation" OR all:"motion retargeting" '
+     'OR all:"bimanual" OR all:"vision-language-action")'),
+    ('broad-catch',
+     'all:"humanoid" AND all:"locomotion" AND all:"manipulation"'),
 ]
+MAX_RESULTS = 100
 
 
 def fetch(url, attempts=2, backoff=8):
@@ -82,7 +84,7 @@ def main():
     ok_queries = 0
     for tag, q in QUERIES:
         url = "http://export.arxiv.org/api/query?" + urllib.parse.urlencode(
-            {"search_query": q, "start": 0, "max_results": 25,
+            {"search_query": q, "start": 0, "max_results": MAX_RESULTS,
              "sortBy": "submittedDate", "sortOrder": "descending"})
         try:
             root = ET.fromstring(fetch(url))
