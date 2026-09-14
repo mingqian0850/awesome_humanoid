@@ -20,10 +20,16 @@ jobs:
         id: sweep
         run: |
           python3 scripts/arxiv_scan.py > /tmp/scan_body.md
-          echo "body_size=$(wc -c < /tmp/scan_body.md)" >> "$GITHUB_OUTPUT"
+          # 只有正文里真的含候选条目（- ** 开头）才继续，避免空 Issue
+          if grep -q '^- \*\*' /tmp/scan_body.md; then
+            echo "has_candidates=yes" >> "$GITHUB_OUTPUT"
+          else
+            echo "has_candidates=no" >> "$GITHUB_OUTPUT"
+            echo "本次扫描无新候选，跳过 Issue 创建"
+          fi
 
       - name: Update scan marker
-        if: steps.sweep.outputs.body_size != '0'
+        if: steps.sweep.outputs.has_candidates == 'yes'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
@@ -32,7 +38,7 @@ jobs:
           git push -q
 
       - name: Open issue with candidates
-        if: steps.sweep.outputs.body_size != '0'
+        if: steps.sweep.outputs.has_candidates == 'yes'
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
