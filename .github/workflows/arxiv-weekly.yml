@@ -2,8 +2,9 @@ name: Weekly arXiv scan
 
 on:
   schedule:
-    # 每周一 01:00 UTC 自动扫描
+    # 每周一、周四 01:00 UTC 自动扫描（两次机会：arXiv 偶发 429 限流时不至于整周漏扫）
     - cron: '0 1 * * 1'
+    - cron: '0 1 * * 4'
   workflow_dispatch: {}
 
 permissions:
