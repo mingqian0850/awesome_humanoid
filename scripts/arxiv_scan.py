@@ -39,7 +39,13 @@ def fetch(url, attempts=2, backoff=8):
     last = None
     for i in range(attempts):
         try:
-            req = urllib.request.Request(url, headers={"User-Agent": "awesome-humanoid-scan/1.0"})
+            # 显式声明 Atom/XML 期望，避免服务器返回 406（GitHub runner 上曾出现）
+            req = urllib.request.Request(url, headers={
+                "User-Agent": "awesome-humanoid-scan/1.0 (+https://github.com/mingqian0850/awesome_humanoid)",
+                "Accept": "application/atom+xml, application/xml;q=0.9, */*;q=0.8",
+                "Accept-Language": "en-US,en;q=0.9",
+                "Connection": "close",
+            })
             return urllib.request.urlopen(req, timeout=30).read()
         except Exception as e:
             last = e
@@ -83,7 +89,7 @@ def main():
     scanned = []
     ok_queries = 0
     for tag, q in QUERIES:
-        url = "http://export.arxiv.org/api/query?" + urllib.parse.urlencode(
+        url = "https://export.arxiv.org/api/query?" + urllib.parse.urlencode(
             {"search_query": q, "start": 0, "max_results": MAX_RESULTS,
              "sortBy": "submittedDate", "sortOrder": "descending"})
         try:
