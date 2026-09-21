@@ -328,8 +328,30 @@
 
 ### 📌 2026-09 增量（每周自动扫描补入）
 
-> 来源：`.github/workflows/arxiv-weekly.yml` 每周自动扫描 arXiv 后开的候选 Issue，人工筛选后并入。
+> 来源：`scripts/arxiv_scan.py` 定期扫描 arXiv 后的候选，人工筛选后并入；判定不收录的 ID 登记在 `scripts/dismissed.txt`。
 
+- **LIMBO: Learning and Internalizing Model-Free Barrier Objectives for Agile and Safe Whole-Body Control** — Jake Gonzales et al., arXiv 2026-09-18. [arXiv](https://arxiv.org/abs/2609.22075) — 无模型屏障目标的安全约束全身控制（敏捷+安全）
+- **Learning Distance-Conditioned Object Transport for Humanoid Loco-Manipulation from a Single Motion Clip** — Yuhyeon Hwang et al., arXiv 2026-09-18. [arXiv](https://arxiv.org/abs/2609.21467) — 单段动作片段学习距离条件的物体搬运
+- **Learning Scene-Aware Humanoid Locomotion through 3D Clutter from Immersive Human Demonstrations** — Beichen Wang et al., arXiv 2026-09-17. [arXiv](https://arxiv.org/abs/2609.21107) — 沉浸式人类演示学习 3D 杂乱场景感知运动
+- **Learning Slope-Adaptive Whole-Body Locomotion for Humanoid Robots in Roofing Construction** — Songyang Liu et al., arXiv 2026-09-17. [arXiv](https://arxiv.org/abs/2609.20558) — 屋顶施工场景的坡度自适应全身运动
+- **ViLoMan: Learning Visual-Proprioceptive Whole-Body Loco-Manipulation Skills for Humanoid Robots** — Zejie Tian et al., arXiv 2026-09-16. [arXiv](https://arxiv.org/abs/2609.19340) — 视觉-本体感知融合的全身 loco-manipulation 技能
+- **KINO: A Keyframe Interface for VLM Planning and Whole-Body Control in Humanoid Loco-Manipulation** — Sitong Chen et al., arXiv 2026-09-16. [arXiv](https://arxiv.org/abs/2609.18869) — 关键帧接口连接 VLM 规划与全身控制
+- **Gated Residual Body-Hand Coordination for Whole-Body Humanoid Teleoperation** — Ruiming Wu et al., arXiv 2026-09-16. [arXiv](https://arxiv.org/abs/2609.18763) — 门控残差身体-手协调的全身遥操作
+- **WholeBodyWAM: Learning Whole-Body World Action Models with Scalable Motion Priors** — Bowei Zhang et al., arXiv 2026-09-16. [arXiv](https://arxiv.org/abs/2609.18197) — 可扩展运动先验的全身世界动作模型
+- **Weave: Learning Whole-Body Dexterous Loco-Manipulation from Human-Object Interactions** — Liu Cao et al., arXiv 2026-09-15. [arXiv](https://arxiv.org/abs/2609.16683) [Code](https://github.com/xiaohu-art/Weave) — 从人-物交互学习全身灵巧 loco-manipulation
+- **WholeBodyWAM: Generalizing Pre-trained World-Action Priors to Humanoid Loco-Manipulation via WBC-Grounded Coordination** — Zhuo Li et al., arXiv 2026-09-15. [arXiv](https://arxiv.org/abs/2609.16644) — 预训练世界-动作先验 + WBC 协调（与 2609.18197 同名不同工作）
+- **Learning Multi-Humanoid Pickup and Transport via Decentralized Object-Centric Control** — Bikram Pandit et al., arXiv 2026-09-15. [arXiv](https://arxiv.org/abs/2609.17824) — 多机去中心化、物体中心控制的协同搬运
+- **Collision-Aware Humanoid Whole-Body Control under Imperfect Tracking Targets** — Mohitvishnu S. Gadde et al., arXiv 2026-09-14. [arXiv](https://arxiv.org/abs/2609.16405) — 跟踪目标不完美时的碰撞感知全身控制
+- **X-WBC: A Cross-Embodiment Foundation Model for Humanoid Whole-Body Control** — Juntong Zhang et al., arXiv 2026-09-14. [arXiv](https://arxiv.org/abs/2609.15213) [Code](https://github.com/LogosRoboticsGroup/x-wbc) — 跨具身全身控制基础模型
+- **Morphology-Aware Human Motion Retargeting for Wheeled-Humanoid Loco-Manipulation** — Chenbo Xia et al., arXiv 2026-09-10. [arXiv](https://arxiv.org/abs/2609.11357) — 轮足人形 loco-manipulation 的形态感知运动重定向
+- **ReCHOIR: Contact-guided Human Object Interaction Retargeting to Diverse Characters** — Chaelin Kim et al., arXiv 2026-09-10. [arXiv](https://arxiv.org/abs/2609.10982) — 接触引导的人-物交互重定向
+- **ViBe: Visual Behavior Adaptation for Perceptive Humanoid Whole-Body Control** — Lokesh Krishna et al., arXiv 2026-09-09. [arXiv](https://arxiv.org/abs/2609.09918) — 感知式全身控制的视觉行为自适应
+- **TANGO: Humanoid Navigation in Cluttered Environments with a Whole-Body Vision-Language-Action Model** — Anqi Li et al., arXiv 2026-09-08. [arXiv](https://arxiv.org/abs/2609.09158) — 全身 VLA 模型的杂乱环境人形导航
+- **PGMT: Perceptive General Motion Tracking for Humanoid Robots** — Hongyi Li et al., arXiv 2026-09-08. [arXiv](https://arxiv.org/abs/2609.08511) — 感知式通用运动跟踪
+- **SPOT: Spatial Perception-Oriented Long-Horizon Humanoid Teleoperation** — Lixing Fang et al., arXiv 2026-09-07. [arXiv](https://arxiv.org/abs/2609.07933) [Code](https://github.com/UMass-Embodied-AGI/SPOT-Unity) — 空间感知导向的长时程人形遥操作
+- **SkillX: Unified Multi-Skill Policy Learning for Humanoid Soccer** — Zhangchen Ye et al., arXiv 2026-09-06. [arXiv](https://arxiv.org/abs/2609.06718) — 人形足球的多技能统一策略学习
+- **Unifying Physics-Based Humanoid Interaction with a Context-Conditioned Interaction Prior** — Jianan Li et al., arXiv 2026-09-06. [arXiv](https://arxiv.org/abs/2609.06591) [Code](https://github.com/jiann-li/chip-project) — 上下文条件交互先验的统一人形交互
+- **GLoRI: Closed-Loop Whole-Body Tracking with Global-Local Reference Interaction for Humanoid Loco-Manipulation** — Qingyao Xu et al., arXiv 2026-09-05. [arXiv](https://arxiv.org/abs/2609.05994) — 全局-局部参考交互的闭环全身跟踪
 - **BRIDGE: An Open-Source Humanoid Platform via Morphology-Control Co-Design for Physical AI** — Jianren Wang et al., arXiv 2026-09-03. [arXiv](https://arxiv.org/abs/2609.03497) — 形态-控制协同设计的开源人形平台
 - **Unified Motion Retargeting for Humanoids with Learned Point Cloud Correspondence** — Hanyang Cao et al., arXiv 2026-09-02. [arXiv](https://arxiv.org/abs/2609.02134) — 学习点云对应的统一人形运动重定向
 - **ADAPT: Agile Diffusion Action Priors for Robust and Steerable Online Text-Driven Humanoid Control** — Yan Wu et al., arXiv 2026-09-01. [arXiv](https://arxiv.org/abs/2609.00677) — 扩散动作先验的文本驱动人形在线控制
