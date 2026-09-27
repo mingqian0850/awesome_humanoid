@@ -330,6 +330,20 @@
 
 > 来源：`scripts/arxiv_scan.py` 定期扫描 arXiv 后的候选，人工筛选后并入；判定不收录的 ID 登记在 `scripts/dismissed.txt`。
 
+- **Rolling-WAM: World Action Models with Rolling Imagination** — Yinghua Zhou et al., arXiv 2026-09-24. [arXiv](https://arxiv.org/abs/2609.30247) — 滚动想象的世界动作模型
+- **BeyondRetarget: Learning Executable Humanoid Motions Directly from Monocular Video** — Tianyu Xiong et al., arXiv 2026-09-24. [arXiv](https://arxiv.org/abs/2609.29850) — 从单目视频直接学习可执行人形动作（免显式重定向）
+- **Contact as a Decision Variable: Capability-Tradeoff Contact Selection for Legged Loco-Manipulation** — Al Jaber Mahmud et al., arXiv 2026-09-24. [arXiv](https://arxiv.org/abs/2609.30140) — 把接触当作决策变量：腿足 loco-manipulation 的接触选择
+- **Echo in the Steps: Learning Perceptive Humanoid Parkour with Gated Memory** — Ming-Ju Lee et al., arXiv 2026-09-24. [arXiv](https://arxiv.org/abs/2609.28960) — 门控记忆的感知式人形跑酷
+- **TactileStep: Sole Tactile Learning for Regulating Foot-Terrain Interaction in Humanoid Locomotion** — Zizhuo Wang et al., arXiv 2026-09-24. [arXiv](https://arxiv.org/abs/2609.28959) — 足底触觉学习调节足-地交互的人形运动
+- **Online Sim-to-Real Adaptation via Closed-Loop System Modeling** — Yuhao Huang et al., arXiv 2026-09-24. [arXiv](https://arxiv.org/abs/2609.28878) — 闭环系统建模的在线 sim-to-real 自适应
+- **ForgetMimic: Motion Unlearning for Reinforcement Learning Humanoid Control** — Xukun Luan et al., arXiv 2026-09-23. [arXiv](https://arxiv.org/abs/2609.28378) — 动作遗忘（unlearning）用于人形 RL 控制
+- **DAVIS: A Depth-Only End-to-End Active-Vision Framework for Humanoid Soccer Skills** — Jiakang Jin et al., arXiv 2026-09-23. [arXiv](https://arxiv.org/abs/2609.28175) [Code](https://github.com/MoTu1734/DAVIS) — 纯深度主动视觉的人形足球技能框架
+- **Banana Kick: Response-Informed Skill Evolution for Humanoid Soccer** — Hao E. Zhang et al., arXiv 2026-09-23. [arXiv](https://arxiv.org/abs/2609.27269) — 响应驱动的技能进化（人形足球）
+- **Learning Expressive Humanoid Locomotion from Monocular Runway Videos for Robot Fashion Shows** — Kyrylo Kolesnichenko et al., arXiv 2026-09-22. [arXiv](https://arxiv.org/abs/2609.27003) [Code](https://github.com/Kyk0/Learning-Expressive-Humanoid-Locomotion-from-Monocular-Runway-Videos-for) — 从单目走秀视频学习表现力人形运动
+- **Humanoid Locomotion with a Fly-Inspired Recurrent Controller** — Isabel Guan et al., arXiv 2026-09-22. [arXiv](https://arxiv.org/abs/2609.27001) — 受果蝇启发的循环控制器人形运动
+- **MATE: Multi-Agent Virtual Teleoperation Platform for Humanoid Collaboration Data Collection** — Yichuan Yu et al., arXiv 2026-09-22. [arXiv](https://arxiv.org/abs/2609.26520) [Code](https://github.com/Yerik-Yu/MATE) — 多人协作人形遥操作数据采集平台
+- **Sample, Simulate, Select: Physics-in-the-Loop Text-to-Motion for Humanoids Without Training** — Raphael Memmesheimer et al., arXiv 2026-09-22. [arXiv](https://arxiv.org/abs/2609.26420) — 物理在环的文本到动作生成（免训练）
+- **PLAT: Sparse Timed Keyframe Motion Tracking for Humanoid Control via Privileged Latent Transition Learning** — Zepeng Wang et al., arXiv 2026-09-22. [arXiv](https://arxiv.org/abs/2609.25754) — 稀疏时间关键帧的动作跟踪（特权潜在转移学习）
 - **LIMBO: Learning and Internalizing Model-Free Barrier Objectives for Agile and Safe Whole-Body Control** — Jake Gonzales et al., arXiv 2026-09-18. [arXiv](https://arxiv.org/abs/2609.22075) — 无模型屏障目标的安全约束全身控制（敏捷+安全）
 - **Learning Distance-Conditioned Object Transport for Humanoid Loco-Manipulation from a Single Motion Clip** — Yuhyeon Hwang et al., arXiv 2026-09-18. [arXiv](https://arxiv.org/abs/2609.21467) — 单段动作片段学习距离条件的物体搬运
 - **Learning Scene-Aware Humanoid Locomotion through 3D Clutter from Immersive Human Demonstrations** — Beichen Wang et al., arXiv 2026-09-17. [arXiv](https://arxiv.org/abs/2609.21107) — 沉浸式人类演示学习 3D 杂乱场景感知运动

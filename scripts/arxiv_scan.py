@@ -22,16 +22,15 @@ NS = {"a": "http://www.w3.org/2005/Atom"}
 # 合并为 3 组 OR 查询（而不是 9 组），把每次运行的请求数从 9 降到 3，
 # 显著降低被 arXiv 限流（HTTP 429）的概率。
 QUERIES = [
-    ('loco-manip',
-     'all:"humanoid" AND (all:"loco-manipulation" OR all:"whole-body control" '
-     'OR all:"whole-body manipulation" OR all:"mobile manipulation")'),
-    ('teleop-data',
-     'all:"humanoid" AND (all:"teleoperation" OR all:"motion retargeting" '
-     'OR all:"bimanual" OR all:"vision-language-action")'),
-    ('broad-catch',
-     'all:"humanoid" AND all:"locomotion" AND all:"manipulation"'),
+    # 宽查询：所有 humanoid 相关新论文（再由人工筛选），避免窄关键词漏掉工作
+    ('humanoid-all', 'all:"humanoid"'),
+    # 兜底：可能不提 humanoid 的全身控制/重定向/移动操作工作
+    ('wbc-retarget',
+     '(all:"whole-body control" OR all:"motion retargeting" OR all:"loco-manipulation")'),
+    # 双足 + 操作/全身
+    ('biped-wbc', 'all:"biped" AND (all:"whole-body" OR all:"manipulation")'),
 ]
-MAX_RESULTS = 100
+MAX_RESULTS = 200
 
 
 def fetch(url, attempts=2, backoff=8):
