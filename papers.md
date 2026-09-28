@@ -367,7 +367,7 @@
 - **Unifying Physics-Based Humanoid Interaction with a Context-Conditioned Interaction Prior** — Jianan Li et al., arXiv 2026-09-06. [arXiv](https://arxiv.org/abs/2609.06591) [Code](https://github.com/jiann-li/chip-project) — 上下文条件交互先验的统一人形交互
 - **GLoRI: Closed-Loop Whole-Body Tracking with Global-Local Reference Interaction for Humanoid Loco-Manipulation** — Qingyao Xu et al., arXiv 2026-09-05. [arXiv](https://arxiv.org/abs/2609.05994) — 全局-局部参考交互的闭环全身跟踪
 - **BRIDGE: An Open-Source Humanoid Platform via Morphology-Control Co-Design for Physical AI** — Jianren Wang et al., arXiv 2026-09-03. [arXiv](https://arxiv.org/abs/2609.03497) — 形态-控制协同设计的开源人形平台
-- **Unified Motion Retargeting for Humanoids with Learned Point Cloud Correspondence** — Hanyang Cao et al., arXiv 2026-09-02. [arXiv](https://arxiv.org/abs/2609.02134) — 学习点云对应的统一人形运动重定向
+- **Unified Motion Retargeting for Humanoids with Learned Point Cloud Correspondence** — Hanyang Cao et al., arXiv 2026-09-02. [arXiv](https://arxiv.org/abs/2609.02134) [Code](https://github.com/hanyang9/UMR) — 学习点云对应的统一人形运动重定向
 - **ADAPT: Agile Diffusion Action Priors for Robust and Steerable Online Text-Driven Humanoid Control** — Yan Wu et al., arXiv 2026-09-01. [arXiv](https://arxiv.org/abs/2609.00677) — 扩散动作先验的文本驱动人形在线控制
 - **Blind Dexterity: Whole-Body Humanoid Manipulation via Pure Proprioception** — Aditya Bhatt et al., arXiv 2026-08-30. [arXiv](https://arxiv.org/abs/2608.29487) — 纯本体感知（无视觉）的全身人形操作
 - **LAC: Linear and Angular Compliance for Humanoid Whole-body Control** — Yang Liu et al., arXiv 2026-08-26. [arXiv](https://arxiv.org/abs/2608.25405) — 线/角柔顺性的人形全身控制
