@@ -2,9 +2,9 @@
 
 人形机器人（Humanoid Robotics）与全身控制（Whole-Body Control, WBC）精选资源清单 —— 公开课程、经典与前沿论文、书籍，从起源到当下。
 
-> **学习路径建议**：理论基础（[Underactuated Robotics](#mit--underactuated-robotics)）→ 阅读 [WBC 综述](#-综述-surveys) 建立全局图景 → 公开课程（[CMU 16-745](#cmu--16-745-optimal-control-and-reinforcement-learning) 等，见 [courses.md](courses.md)）→ 按年代读论文 → 用开源仿真器（[MuJoCo](https://mujoco.org/) / [Isaac Lab](https://isaac-sim.github.io/IsaacLab/)）动手实践。
+> **学习路径建议**：理论基础（[Underactuated Robotics](courses.md#mit--underactuated-robotics)）→ 阅读 [WBC 综述](papers.md#-综述-surveys) 建立全局图景 → 公开课程（[CMU 16-745](courses.md#cmu--16-745-optimal-control-and-reinforcement-learning) 等，见 [courses.md](courses.md)）→ 按年代读论文 → 用开源仿真器（[MuJoCo](https://mujoco.org/) / [Isaac Lab](https://isaac-sim.github.io/IsaacLab/)）动手实践。
 
-> 📊 内容统计：**263 篇论文**（1972–2026，全部经核实附链接）· **15 本书**（含 3 本中文）· **6 门公开课程/视频系列** · **13 个开源工具 + 2 个中文资源**
+> 📊 内容统计：**265 篇论文**（1972–2026，全部经核实附链接）· **15 本书**（含 3 本中文）· **6 门公开课程/视频系列** · **16 个开源工具 + 2 个中文资源**
 
 ## 📖 目录 (Table of Contents)
 
@@ -27,6 +27,8 @@
 
 ## 📅 更新日志 (Changelog)
 
+- 2026-10-08：新增 ResGAC 末端跟踪与 I-BFM 交互控制，区分论文真机实验和代码发布状态。
+- 2026-10-05：核验并补充 GMR、MimicKit、Unitree RL Lab，连通重定向、动作跟踪与部署入口；修正首页学习路径的跨文件链接。
 - 2026-08-23：新增本章节（添加 README 修改记录，验证 HTTPS 推送流程）。
 
 ## 许可 (License)

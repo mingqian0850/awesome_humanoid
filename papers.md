@@ -173,6 +173,15 @@
 - **LeVERB: Humanoid Whole-Body Control with Latent Vision-Language Instruction** — H. Xue et al., arXiv, 2025. [arXiv](https://arxiv.org/abs/2506.13751) — 潜在视觉-语言指令驱动人形全身控制，衔接 VLA 与全身运动策略。
 ## 🆕 2025–2026 最新进展：Humanoid Loco-Manipulation 专题
 
+### 2026-10 定向增量（2026-10-08 核验）
+
+- **Precise SE(3) End-Effector Tracking in Whole-Body Humanoid Control** — Joohwan Seo et al., *arXiv:2610.09479*, 2026-10-07. [arXiv](https://arxiv.org/abs/2610.09479) · [项目页](https://resgac.github.io/ResGAC-website/) — ResGAC 将几何导纳控制与残差 RL 结合，以地面航向参考系减小骨盆运动对末端目标的干扰；论文报告 Unitree G1 真机验证，项目页仍标注录用后发布代码。
+- **I-BFM: Reward-Conditioned Robust Humanoid Interaction via Unsupervised Reinforcement Learning** — Ziqi Han et al., *arXiv:2610.06129*, 2026-10-05. [arXiv](https://arxiv.org/abs/2610.06129) — 通过 forward-backward 表征学习人形、物体与接触的共同动力学，再按任务奖励生成潜在指令；论文报告搬运、推动、踢动及 Unitree G1 扰动恢复实验。本轮核验论文，未验证可运行代码。
+
+上述均为预印本，标题与日期经 arXiv API 核验；性能描述来自作者实验。
+
+### 2026-08 扫描记录
+
 > 2026-08 通过 arXiv API 全量扫描（9 组关键词 × 40 条）筛选出的最新进展，与本仓库已有条目去重；标题/作者/日期均来自 arXiv 元数据。代码链接为已核实的官方/作者仓库（截至 2026-08 存在），未列出的不代表无代码。
 
 ### 🏭 学习式 Loco-Manipulation 系统
