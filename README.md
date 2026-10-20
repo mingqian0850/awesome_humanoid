@@ -1,5 +1,7 @@
 # Awesome Humanoid 🤖
 
+[数据与工业操作学习补充 · 中文](docs/industrial-task-and-data.zh-CN.md) · [English](docs/industrial-task-and-data.en.md)
+
 人形机器人（Humanoid Robotics）与全身控制（Whole-Body Control, WBC）精选资源清单 —— 公开课程、经典与前沿论文、书籍，从起源到当下。
 
 > **学习路径建议**：理论基础（[Underactuated Robotics](courses.md#mit--underactuated-robotics)）→ 阅读 [WBC 综述](papers.md#-综述-surveys) 建立全局图景 → 公开课程（[CMU 16-745](courses.md#cmu--16-745-optimal-control-and-reinforcement-learning) 等，见 [courses.md](courses.md)）→ 按年代读论文 → 用开源仿真器（[MuJoCo](https://mujoco.org/) / [Isaac Lab](https://isaac-sim.github.io/IsaacLab/)）动手实践。
@@ -19,7 +21,7 @@
   - 2020s：深度强化学习 · 遥操作与示教 · 人形基础模型 / VLA
 - [🧭 WBC 发展路线与技术分析](humanoid-wbc-development.md)（四代演进 + 核心技术体系 + 两条路线对比）
 - [🛠 开源工具与仿真器 (Tools & Simulators)](tools.md)
-- [🌐 中文资源 (Chinese Resources)](tools.md#-中文资源)
+- [🌐 中文资源 (Chinese Resources)](tools.md#-中文资源-chinese-resources)
 
 ## 贡献 (Contributing)
 
