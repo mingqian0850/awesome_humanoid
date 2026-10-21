@@ -1,5 +1,7 @@
 # Awesome Humanoid 🤖
 
+[主题最新进展 · 2026-10-21 · 中文](docs/topic-progress-2026-10-21.zh-CN.md) · [English](docs/topic-progress-2026-10-21.en.md)
+
 [数据与工业操作学习补充 · 中文](docs/industrial-task-and-data.zh-CN.md) · [English](docs/industrial-task-and-data.en.md)
 
 人形机器人（Humanoid Robotics）与全身控制（Whole-Body Control, WBC）精选资源清单 —— 公开课程、经典与前沿论文、书籍，从起源到当下。
@@ -28,6 +30,8 @@
 欢迎 PR 补充遗漏的重要论文 / 课程 / 书籍。要求：条目必须有可点击的真实链接，附一句中文说明。
 
 ## 📅 更新日志 (Changelog)
+
+- 2026-10-21：新增 VioLA、Whole-Body Dexterity、OmniInteract 双语主题查阅页，说明方法、所需数据及发布边界。
 
 - 2026-10-08：新增 ResGAC 末端跟踪与 I-BFM 交互控制，区分论文真机实验和代码发布状态。
 - 2026-10-05：核验并补充 GMR、MimicKit、Unitree RL Lab，连通重定向、动作跟踪与部署入口；修正首页学习路径的跨文件链接。
